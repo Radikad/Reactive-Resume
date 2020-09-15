@@ -18,7 +18,7 @@ export default function Template({ data }) {
           <title>{frontmatter.title} | Reactive Resume</title>
           <link
             rel="canonical"
-            href={`https://rxresu.me/blog/${frontmatter.slug}`}
+            href={`https://xenodochial-austin-394c9d.netlify.app/blog/${frontmatter.slug}`}
           />
         </Helmet>
 

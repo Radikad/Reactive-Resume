@@ -4,7 +4,7 @@ const puppeteer = require('puppeteer');
 
 admin.initializeApp();
 
-const BASE_URL = 'https://rxresu.me/r/';
+const BASE_URL = 'https://xenodochial-austin-394c9d.netlify.app/r/';
 
 function timeout(ms) {
   return new Promise((resolve) => setTimeout(resolve, ms));

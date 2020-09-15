@@ -1,12 +1,12 @@
 {
   "projects": {
-    "default": "rx-resume"
+    "default": "cresuma-6f829"
   },
   "targets": {
-    "rx-resume": {
+    "cresuma-6f829": {
       "hosting": {
-        "rxresume-staging": [
-          "rxresume-staging"
+        "cresuma-6f829-staging": [
+          "cresuma-6f829-staging"
         ]
       }
     }

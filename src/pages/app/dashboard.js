@@ -66,7 +66,7 @@ const Dashboard = ({ user }) => {
         <title>
           {t('dashboard.title')} | {t('shared.appName')}
         </title>
-        <link rel="canonical" href="https://rxresu.me/app/dashboard" />
+        <link rel="canonical" href="https://xenodochial-austin-394c9d.netlify.app/app/dashboard" />
       </Helmet>
 
       <TopNavbar />

@@ -1,7 +1,7 @@
 {
   "hosting": [
     {
-      "target": "rxresume",
+      "target": "cresuma-6f829",
       "public": "public",
       "ignore": ["**/.*", "firebase.json", "**/node_modules/**"],
       "headers": [

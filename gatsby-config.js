@@ -3,7 +3,7 @@ require('dotenv').config();
 module.exports = {
   siteMetadata: {
     title: 'Reactive Resume',
-    siteUrl: 'https://rxresu.me',
+    siteUrl: 'https://xenodochial-austin-394c9d.netlify.app',
     description: 'A free and open source resume builder.',
     version: '2.1.4',
   },

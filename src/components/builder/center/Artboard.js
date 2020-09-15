@@ -27,7 +27,7 @@ const Artboard = () => {
         <title>
           {name} | {t('shared.appName')}
         </title>
-        <link rel="canonical" href={`https://rxresu.me/app/builder/${id}`} />
+        <link rel="canonical" href={`https://xenodochial-austin-394c9d.netlify.app/app/builder/${id}`} />
       </Helmet>
 
       <div
