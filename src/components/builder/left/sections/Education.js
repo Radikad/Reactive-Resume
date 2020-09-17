@@ -19,7 +19,7 @@ const Education = ({ id, event }) => {
       />
 
       <List
-        hasDate
+        //hasDate
         path={path}
         event={event}
         titlePath="institution"

@@ -44,7 +44,7 @@ exports.deleteUser = functions.https.onCall((_, { auth }) => {
   });
 });
 
-exports.printResume = functions.https.onCall(async ({ id, type }, { auth }) => {
+exports.printResume = functions.runWith({ memory: '2GB', timeoutSeconds: 30 }).https.onCall(async ({ id, type }, { auth }) => {
   if (!id) {
     throw new functions.https.HttpsError(
       'invalid-argument',

@@ -3,7 +3,7 @@ import { useTranslation } from 'react-i18next';
 import Heading from '../../../shared/Heading';
 import Input from '../../../shared/Input';
 import List from '../../lists/List';
-
+//hasDate have been commented sine it's making an error
 const Work = ({ id, event }) => {
   const path = `${id}.items`;
   const { t } = useTranslation();
@@ -19,7 +19,7 @@ const Work = ({ id, event }) => {
       />
 
       <List
-        hasDate
+       // hasDate
         path={path}
         event={event}
         titlePath="company"
