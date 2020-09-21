@@ -19,7 +19,7 @@ const Work = ({ id, event }) => {
       />
 
       <List
-       // hasDate
+        //hasDate
         path={path}
         event={event}
         titlePath="company"

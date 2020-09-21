@@ -29,6 +29,10 @@ const List = ({
 
   const handleEdit = (data) => emitter.emit(event, data);
 
+  
+
+  
+
   return (
     <div className="flex flex-col">
       <div className={styles.list}>
