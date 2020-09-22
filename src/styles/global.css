@@ -42,9 +42,8 @@ section {
   100% {
     transform: rotate(360deg);
   }
-}w
-
-.markdown {
+}
+w .markdown {
   @apply leading-relaxed whitespace-pre-wrap;
 }
 
@@ -74,10 +73,12 @@ section {
 
   #page {
     width: 21cm;
-    position: absolute;
+    /* position: absolute; */
     top: 0;
     left: 0;
     right: 0;
     box-shadow: none;
   }
 }
+
+
