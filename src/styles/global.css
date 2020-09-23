@@ -72,12 +72,18 @@ w .markdown {
   }
 
   #page {
-    width: 21cm;
-    /* position: absolute; */
+    /* width: 21cm; */
+    /* position: relative; */
     top: 0;
     left: 0;
     right: 0;
     box-shadow: none;
+    width: auto; 
+    float: none;     position: static;     overflow: visible;
+  }
+  .Artboard-module--container--ifkQ4{
+    transform: scale(1) !important; 
+    /* scale of the outer div of the printing page */
   }
 }
 
